@@ -68,6 +68,9 @@ img::-moz-selection {
   color: #fff;
   background: transparent; }
 
+.img-fluid {
+  height: 240px; }
+
 body {
   -webkit-tap-highlight-color: #212529; }
 
@@ -166,7 +169,7 @@ header.masthead {
   height: 100%;
   position: fixed;
   top: 0; left: 0; right:0;
-  z-index: 100;
+  z-index: 10000;
 
   display: flex;
   justify-content: center;
@@ -231,7 +234,7 @@ button::-moz-focus-inner {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(240, 95, 64, 0.9);
+    background: rgba(220,53,69, 0.8);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
