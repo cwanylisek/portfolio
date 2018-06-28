@@ -24,8 +24,8 @@ a {
     color: #dc3545; }
 
 .sr-icons {
-  width: 90px;
-  height: 90px; }
+  width: auto;
+  height: 80px; }
 
 h1,
 h2,
@@ -69,7 +69,9 @@ img::-moz-selection {
   background: transparent; }
 
 .img-fluid {
-  height: 240px; }
+  height: 240px;
+  object-fit: cover;
+ }
 
 body {
   -webkit-tap-highlight-color: #212529; }
